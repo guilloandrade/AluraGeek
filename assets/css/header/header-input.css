@@ -1,0 +1,9 @@
+.header__input {
+    color: var(--preto-50, #A2A2A2);
+    font-size: 0.875rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    background: none;
+}
