@@ -1,0 +1,11 @@
+.banner__titulo__principal {
+    color: #fff;
+    font-weight: bold;
+    font-size: 3.6vw;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    margin: 0.8rem 0;
+}

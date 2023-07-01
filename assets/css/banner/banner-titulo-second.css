@@ -1,0 +1,10 @@
+.banner__titulo__second {
+    font-size: 2.1vh;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:  #FFF;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    margin: 0.8rem 0;
+}

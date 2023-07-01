@@ -1,0 +1,15 @@
+.banner__boton {
+    
+    padding: 1rem;
+    background: #2A7AE4;
+    color: #FFF;
+    font-size: 1.5vh;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0.8rem 0;
+    text-align: center;
+    width: 11vw;
+
+}
