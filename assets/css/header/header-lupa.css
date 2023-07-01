@@ -2,6 +2,6 @@
     width: 1.4rem;
     height: 1.4rem;
     flex-shrink: 0;
-    background-image: url("/assets/img/header/Icone.png");
+    background-image: url("../../img/header/Icone.png");
     background-repeat: no-repeat;
 }
