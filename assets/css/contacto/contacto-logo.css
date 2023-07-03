@@ -1,0 +1,7 @@
+.contacto__logo{
+    display: flex;
+    width: 11rem;
+    height: 15rem;
+    align-items: flex-start;
+}
+

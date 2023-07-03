@@ -1,0 +1,11 @@
+.producto__barra__lista {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80vw;
+    max-height: 236.172px;
+    overflow: hidden;
+    gap: 1rem;
+    
+}

@@ -1,0 +1,13 @@
+.contacto__form__textArea {
+    width: 28rem;
+    height: 5rem;
+    color: #A2A2A2;
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0.7rem;
+    resize: none;
+}
