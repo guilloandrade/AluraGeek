@@ -6,6 +6,7 @@
     font-weight: 700;
     line-height: normal;
     transition: .5 ease;
+    padding-left: .3em;
 
 }
 
@@ -13,11 +14,3 @@
     transform: scale(1.09);
     color: aquamarine;
 }
-
-@media (max-width: 480px) {
-    .producto__barra__lista__item__link:hover {
-        padding-left: 1vw;        
-    }
-
-}
-;
