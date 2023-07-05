@@ -14,3 +14,10 @@
     color: aquamarine;
 }
 
+@media (max-width: 480px) {
+    .producto__barra__lista__item__link:hover {
+        padding-left: 1vw;        
+    }
+
+}
+;
