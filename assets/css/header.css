@@ -1,9 +1,10 @@
 .header{
 display: flex;
 width: 98.9vw;
-padding: 1.9rem 7%;
+padding: 1.9rem 9%;
 align-items: center;
-background: #fff;
+background: var(--bg-color);
+
 
 }
 

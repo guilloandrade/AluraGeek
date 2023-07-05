@@ -1,12 +1,12 @@
 .banner__boton {
     
     padding: 1rem;
-    background: #2A7AE4;
-    color: #FFF;
+    background: var(--second-bg-color);
+    color: var(--bg-color);
     font-size: .8rem;
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     margin: 0.8rem 0;
     text-align: center;
@@ -15,8 +15,8 @@
 }
 
 .banner__boton:hover {
-    box-shadow: 0 0 1rem #2A7AE4 ;
-    color:#2A7AE4;
+    box-shadow: 0 0 1rem var(--second-bg-color) ;
+    color:var(--second-bg-color);
     background-color: #fff ;
     transform: scale(1.1);
     border-radius: 4px;
