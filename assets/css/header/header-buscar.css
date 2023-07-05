@@ -7,3 +7,19 @@
     background: #F5F5F5;
     justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+    .header__buscar {
+        width: 17rem;
+        height: 3rem;
+    }
+    
+}
+
+@media (max-width: 617px) {
+    .header__buscar {
+        order: 2;
+        background: none;
+        width: auto;
+    }
+}

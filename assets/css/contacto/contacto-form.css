@@ -13,3 +13,19 @@
     line-height: normal;
     gap: 1rem;
 }
+
+@media (max-width: 768px) {
+    .contacto__form {
+        align-self: flex-start;
+    }
+    .contacto__form form {
+        width: auto;
+    }
+}
+
+@media (max-width: 617px) {
+    .contacto__form form {
+        width: auto;
+        height: auto;
+    }
+}

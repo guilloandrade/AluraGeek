@@ -6,11 +6,36 @@
     align-items: center;
     margin-left: auto;
     flex-shrink: 0;
-    border: 1px solid var(--azul-100, #2A7AE4);
-    color: var(--azul-100, #2A7AE4);
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
     font-size: 1rem;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transition: .5s ease;
+}
+
+.header__boton:hover {
+    box-shadow: 0 0 1rem #2A7AE4;
+    color: #fff;
+    background-color: #2A7AE4;
+    transform: scale(1.1);
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .header__boton {
+        width: 11rem;
+        padding: 0.8rem;
+    }
+
+}
+
+@media (max-width: 617px) {
+    .header__boton {
+        width: 9rem;
+        padding: 0.8rem;
+    }
+
 }

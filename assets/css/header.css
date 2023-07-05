@@ -6,3 +6,10 @@ align-items: center;
 background: #fff;
 
 }
+
+@media (max-width: 617px) {
+    .header {
+        justify-content: space-around;
+        padding: 1rem;
+    }
+}

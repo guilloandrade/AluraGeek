@@ -5,3 +5,13 @@
     align-items: center; 
     margin-right: 2rem;    
 }
+
+@media (max-width: 768px) {
+    .header__logo{
+        width: 9rem;
+    }
+    .header__logo img{
+        width: 8rem;
+    }
+    
+}

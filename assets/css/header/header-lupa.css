@@ -5,3 +5,10 @@
     background-image: url("../../img/header/Icone.png");
     background-repeat: no-repeat;
 }
+
+@media (max-width: 617px) {
+    .header__lupa {
+        background-image: url("../../img/header/Icone.svg");
+    }
+}
+

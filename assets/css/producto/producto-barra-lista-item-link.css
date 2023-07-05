@@ -5,4 +5,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transition: .5 ease;
+
 }
+
+.producto__barra__lista__item__link:hover{
+    transform: scale(1.09);
+    color: aquamarine;
+}
+

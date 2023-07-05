@@ -8,5 +8,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transition: .5 ease;
 
+}
+
+.producto__barra__titulo__boton:hover{
+    transform: scale(1.09);
 }

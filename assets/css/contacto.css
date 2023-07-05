@@ -6,4 +6,24 @@
     gap: 7.1875rem;
     align-self: stretch;
     background: var(--azul-10, #EAF2FD);
+
+}
+
+@media (max-width: 768px) {
+    .contacto {
+        gap: 0;
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacto {
+        gap: 2rem;
+        flex-direction: column;
+        padding: 1rem;
+        width: 100vw;
+        align-content: center;
+
+    }
 }

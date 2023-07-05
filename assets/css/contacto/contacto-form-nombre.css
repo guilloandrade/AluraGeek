@@ -1,5 +1,5 @@
 .contacto__form__nombre {
-    width: 28rem;
+    width: 37.33vw;
     height: 3.2rem;
     color: #A2A2A2;
     font-size: 1rem;
@@ -11,3 +11,15 @@
     padding: 0.7rem;
 }
 
+@media (max-width: 768px) {
+    .contacto__form__nombre {
+        width: 54vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacto__form__nombre {
+        width: 90vw;
+        height: 4rem;
+    }
+}
