@@ -18,6 +18,15 @@
     
 }
 
+body {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  body.fadeout {
+    opacity: 0;
+  }
+
 @media (max-width: 1200px) {
     html {
         font-size: 90%;
