@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-AluraGeek</title>
+    <title>AluraGeek-Agregar</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/header/header-logo.css">
@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="assets/css/contacto/contacto-form-btn.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/logueo.css">
+    <link rel="stylesheet" href="assets/css/agregar.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 
@@ -53,22 +54,24 @@
                 placeholder="¿Qué deseas buscar?">
             <a href="#" class="header__lupa"></a>
         </div>
-        <!--<a href="#" class="header__boton">Login</a>-->
+        <a href="#" class="header__boton menu">Menú Administrador</a>
 
     </header>
 
-    <!-- zona login -->
+    <!-- zona agregar -->
     
 
-    <section class="logueo">
-        <div class="login">
+    <section class="agregar">
+        <div class="agregar__container">
             <form action="">
-                <h1 class="login__heading">Iniciar sesión</h1>
+                <h1 class="agregar__container__heading">Agregar nuevo producto</h1>
                 <input class="login__form__usuario" type="text" placeholder="Escriba su correo electrónico">
-                <input class="login__form__password" type="text" placeholder="Escriba su contraseña">
-                <input type="submit" value="Entrar" class="login__form__btn">
+                <input class="login__form__usuario" type="text" placeholder="Categoría">
+                <input class="login__form__usuario" type="text" placeholder="Precio del produtco">
+                <textarea class="login__form__usuario descripcion" type="text" placeholder="Descripción del producto"></textarea>
+                <input type="submit" value="Agregar producto" class="login__form__btn">
+            
             </form>
-            <span class="login__circuit-mask"></span>
         </div>
     </section>
     <section class="espacio"></section>
