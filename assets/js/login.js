@@ -9,7 +9,7 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
     if (username === "alura@latam.com" && password === "password") {
       // Credenciales válidas
       localStorage.setItem("loggedIn", "true");
-      window.location.href = "/screens/productoedit.html"; 
+      window.location.href = "productoedit.html"; 
     } else {
       // Credenciales inválidas
        alert("Usuario o contraseña incorrectos.");
