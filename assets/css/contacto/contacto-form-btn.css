@@ -20,4 +20,5 @@
     cursor: pointer;
     background-color: var(--text-color);
     box-shadow: 0 2px 4px var(--second-bg-color);
+    border-radius: 5px;
 }

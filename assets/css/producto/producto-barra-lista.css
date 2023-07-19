@@ -3,16 +3,17 @@
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
-    width: 80vw;
-    max-height: 236.172px;
+    width: 81vw;
+    max-height: 245px;
     overflow: hidden;
     gap: 1rem;
+    padding: 0.5rem;
     
 }
 
 @media (max-width: 768px) {
     .producto__barra__lista {
-        width: 90vw;
+        width: 91vw;
     }
 
 }

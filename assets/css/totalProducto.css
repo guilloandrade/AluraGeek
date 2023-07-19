@@ -11,7 +11,7 @@
 .totalProductos__container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .totalProductos__barra {
@@ -21,10 +21,6 @@
     flex-wrap: wrap;
     gap: 1rem;
 
-}
-
-.producto__barra__lista__item a {
-    margin-bottom: 4rem;
 }
 
 .producto__barra__titulo__boton1 {
@@ -51,17 +47,65 @@
     border: none;
 }
 
+.producto__barra__lista__item__imagen {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.producto__barra__lista__item__imagen img {
+    width: 160px;
+    height: 162.172px;
+    
+}
+
+.totalProductos__barra__icono {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    width: 85px;
+    height: 49px;
+    
+}
+
+
+.totalProductos__barra__icono__a {
+    margin: 3px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.3rem;
+    background: rgba(24, 24, 24, 0.129);
+    border: .18rem solid var(--second-bg-color);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: var(--second-bg-color);
+    transition: .5s ease;
+    cursor: pointer;
+    
+}
+
+.totalProductos__barra__icono__a:hover {
+    background: var(--second-bg-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 1rem var(--second-bg-color);
+    
+}
 
 @media (max-width: 768px) {
     .totalProductos {
-        padding: 2rem;
+        padding: 1rem;
         width: 100%;
         margin-top: 2rem;
         margin-bottom: 2rem;
 
     }
 
-    .totalProductos__barra{
+    .totalProductos__barra {
         width: auto;
         justify-content: center;
         gap: 0.9rem
@@ -69,7 +113,11 @@
 }
 
 @media (max-width: 565px) {
-    .producto__barra__titulo{
+    .totalProductos {
+        padding: 0.5rem;
+    }
+
+    .producto__barra__titulo {
         flex-wrap: wrap;
         gap: 1rem;
     }
