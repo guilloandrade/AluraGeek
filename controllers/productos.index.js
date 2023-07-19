@@ -9,7 +9,7 @@ const crearNuevaLinea = (imagen, nombre, precio, id) => {
         alt="producto">
     <h5>${nombre}</h5>
     <h6>$${precio}</h6>
-    <a href= "detalleProducto.html?id=${id}" class="producto__barra__lista__item__link">Ver producto</a>
+    <a href= "screens/detalleProducto.html?id=${id}" class="producto__barra__lista__item__link">Ver producto</a>
 `;
 linea.innerHTML = contenido;
   return linea;
