@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-AluraGeek</title>
+    <title>AluraGeek-Productos</title>
     <link rel="icon" href="../assets/img/header/sport.png" type="image/png">
-    <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/header/header-logo.css">
     <link rel="stylesheet" href="../assets/css/header/header-buscar.css">
     <link rel="stylesheet" href="../assets/css/header/header-input.css">
@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="../assets/css/contacto/contacto-form-textArea.css">
     <link rel="stylesheet" href="../assets/css/contacto/contacto-form-btn.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../assets/css/logueo.css">
+    <link rel="stylesheet" href="../assets/css/totalProducto.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 
@@ -54,26 +54,28 @@
                 placeholder="¿Qué deseas buscar?">
             <a href="#" class="header__lupa"></a>
         </div>
-        <!--<a href="#" class="header__boton">Login</a>-->
+        <!-- <a href="login.html" class="header__boton" id="loginLink">Login</a> -->
 
     </header>
+    <!-- zona productos -->
+    <section class="totalProductos">
+        <div class="totalProductos__container">
+            <div class="producto__barra__titulo">
+                <div class="producto__barra__titulo__principal">
+                    <h2>Consolas</h2>
+                </div>
+                <a href="producto.html" class="producto__barra__titulo__boton">
+                    <h4>Ver todo</h4>
+                    <div class="producto__barra__titulo__boton__flecha"></div>
+                </a>
 
-    <!-- zona login -->
-    
-
-    <section class="logueo">
-        <div class="login">
-            <form method="post" id="loginForm">
-                <h1 class="login__heading">Iniciar sesión</h1>
-                <input class="login__form__usuario" type="email" id="username" name="username" required pattern="[^\s@]+@[^\s@]+\.[^\s@]+" placeholder="Escriba su correo electrónico">
-                <input class="login__form__password" type="password" id="password" name="password" required placeholder="Escriba su contraseña">
-                <input type="submit" value="Entrar" class="login__form__btn">
-            </form>
-            <span class="login__circuit-mask"></span>
-        </div>
+            </div>
+            <div class="totalProductos__barra" data-producto-consolas>
+                
+            </div>
     </section>
-    <section class="espacio"></section>
-    
+
+
     <!-- zona contacto -->
     <section class="contacto">
         <div class="contacto__logo">
@@ -92,7 +94,8 @@
             <form action="">
                 <h5>Hable con nosotros</h5>
                 <input class="contacto__form__nombre" type="text" placeholder="Nombre Completo">
-                <textarea class="contacto__form__textArea" name="" id="" cols="60" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                <textarea class="contacto__form__textArea" name="" id="" cols="60" rows="3"
+                    placeholder="Escribe tu mensaje"></textarea>
                 <input type="submit" value="Enviar mensaje" class="contacto__form__btn">
             </form>
         </div>
@@ -106,12 +109,12 @@
         </div>
         <div class="footer-iconTop">
             <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
-        </div> 
+        </div>
     </footer>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="../assets/js/login.js"></script>
 <script src="../assets/js/script.js"></script>
+<script type="module" src="../controllers/productos.consolas.js"></script>
 
 </html>
