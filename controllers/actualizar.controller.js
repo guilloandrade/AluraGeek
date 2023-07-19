@@ -41,7 +41,7 @@ formulario.addEventListener("submit", (evento)=>{
     const descripcion = document.querySelector("[data-descripcion]").value;
 
     clientetServices.actualizarProducto(nombre,categoria,precio,imagen,descripcion, id).then(()=>{
-        window.location.href= "/screens/actualizacionCorrecta.html"
+        window.location.href= "actualizacionCorrecta.html"
     });
 
 });

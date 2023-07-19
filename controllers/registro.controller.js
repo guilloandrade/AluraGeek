@@ -13,7 +13,7 @@ formulario.addEventListener("submit", (evento)=>{
     clientetServices
      .crearProducto(nombre,categoria,precio,imagen,descripcion)
      .then( () =>{
-        window.location.href = "/screens/satisfactorio.html";
+        window.location.href = "satisfactorio.html";
      })
      .catch ((err)=>console.log(err));
 });
