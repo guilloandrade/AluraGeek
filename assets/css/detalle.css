@@ -9,23 +9,24 @@
 
 }
 
-.producto__barra__lista__item__link{
+.producto__barra__lista__item__link {
     margin: 0;
 }
 
 /* images */
 
-.slick-list{
-    position: relative;
+.slick-list {
+
     display: flex;
     align-items: center;
     height: 304px;
     padding: 10px 0px;
     margin: 0px auto;
-    max-width: 81vw;
+    width: 81vw;
     overflow: hidden;
 }
-.slick-track{
+
+.slick-track {
     flex-wrap: nowrap;
     position: relative;
     top: 0;
@@ -33,9 +34,10 @@
     display: flex;
     justify-content: center;
     transition: .5s ease-in-out;
-    
+
 }
-.slick{
+
+.slick {
     position: relative;
     width: 200px;
     float: left;
@@ -44,8 +46,9 @@
     flex-direction: column;
     height: 100%;
     gap: 0.5rem;
-    padding-left: 30px;
+    padding-left: 20px;
 }
+
 .slick h5 {
     color: var(--preto-100, #464646);
     font-size: 0.875rem;
@@ -54,6 +57,7 @@
     font-weight: 500;
     line-height: normal;
 }
+
 .slick h6 {
     color: #464646;
     font-size: 1rem;
@@ -62,7 +66,8 @@
     font-weight: 700;
     line-height: normal;
 }
-.slick img{
+
+.slick img {
     object-fit: cover;
     width: 160px;
     height: 162.172px;
@@ -74,51 +79,89 @@
 
 /* buttons */
 
-.slick-arrow{
+.slick-arrow {
     border-radius: 30px;
-    background-color: #fff;
+    background-color: #c0eee9;
     position: absolute;
     z-index: 4;
     width: 48px;
     height: 48px;
     text-align: center;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .15);
     border: 0;
     cursor: pointer;
+    transition: .5 ease;
+
 }
-.slick-arrow:focus{
+
+.slick-arrow:hover {
+    border-radius: 30px;
+    background-color: var(--bg-color);
+    
+
+}
+
+.slick-arrow:focus {
     outline: 0;
 }
-.slick-arrow svg{
+
+.slick-arrow svg {
     width: 12px;
     height: 100%;
-    color: rgba(0,0,0,.7);
+    color: var(--second-bg-color);
 }
-.slick-prev{
-    left: 0px;
+
+.slick-prev {
+    left: 30px;
 }
-.slick-next{
-    right: 0px;
+
+.slick-next {
+    right: 30px;
 }
 
 @media (max-width: 768px) {
     .slick-list {
-        width: 91vw;
+        width: 80vw;
+        padding-left: 10px;
     }
 
-}
-
-@media (max-width: 378px) {
-    .slick-list {
-        width: 95vw;
-        padding: 0.5rem;
+    .slick-prev {
+        left: 25px;
     }
 
+    .slick-next {
+        right: 25px;
+    }
 }
 @media (max-width: 480px) {
 
     .detalle {
         margin-top: 0;
+    }
+
+    .slick-list {
+        width: 85vw;
+        padding: 0.5rem;
+        padding-left: 1rem;
+    }
+
+    .slick {
+        width: 190px;
+
+    }
+
+    .slick-arrow {
+        
+        width: 40px;
+        height: 40px;
+    }
+
+    .slick-prev {
+        left: 8px;
+    }
+
+    .slick-next {
+        right: 8px;
     }
 }
 
