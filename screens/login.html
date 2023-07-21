@@ -52,28 +52,31 @@
         <div class="header__buscar">
             <input class="header__input" type="text" id="header-input" name="header-input"
                 placeholder="¿Qué deseas buscar?">
-            <a href="#" class="header__lupa"></a>
+            <a href="#" class="header__lupa" id="btnBuscar"></a>
         </div>
         <!--<a href="#" class="header__boton">Login</a>-->
+        <a href="#" class="header__lupa2"></a>
 
     </header>
 
     <!-- zona login -->
-    
+
 
     <section class="logueo">
         <div class="login">
             <form method="post" id="loginForm">
                 <h1 class="login__heading">Iniciar sesión</h1>
-                <input class="login__form__usuario" type="email" id="username" name="username" required pattern="[^\s@]+@[^\s@]+\.[^\s@]+" placeholder="Escriba su correo electrónico">
-                <input class="login__form__password" type="password" id="password" name="password" required placeholder="Escriba su contraseña">
+                <input class="login__form__usuario" type="email" id="username" name="username" required
+                    pattern="[^\s@]+@[^\s@]+\.[^\s@]+" placeholder="Escriba su correo electrónico">
+                <input class="login__form__password" type="password" id="password" name="password" required
+                    placeholder="Escriba su contraseña">
                 <input type="submit" value="Entrar" class="login__form__btn">
             </form>
             <span class="login__circuit-mask"></span>
         </div>
     </section>
     <section class="espacio"></section>
-    
+
     <!-- zona contacto -->
     <section class="contacto">
         <div class="contacto__logo">
@@ -92,7 +95,8 @@
             <form action="">
                 <h5>Hable con nosotros</h5>
                 <input class="contacto__form__nombre" type="text" placeholder="Nombre Completo">
-                <textarea class="contacto__form__textArea" name="" id="" cols="60" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                <textarea class="contacto__form__textArea" name="" id="" cols="60" rows="3"
+                    placeholder="Escribe tu mensaje"></textarea>
                 <input type="submit" value="Enviar mensaje" class="contacto__form__btn">
             </form>
         </div>
@@ -106,12 +110,13 @@
         </div>
         <div class="footer-iconTop">
             <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
-        </div> 
+        </div>
     </footer>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="../assets/js/login.js"></script>
+<script src="../assets/js/busquedaq2.js"></script>
 <script src="../assets/js/script.js"></script>
 
 </html>

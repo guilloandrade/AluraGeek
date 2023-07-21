@@ -140,13 +140,14 @@
     }
 
     .slick-list {
-        width: 85vw;
+        width: 91vw;
         padding: 0.5rem;
         padding-left: 1rem;
     }
 
     .slick {
-        width: 190px;
+        width: 180px;
+        padding-left: 0;
 
     }
 

@@ -15,11 +15,15 @@
     padding: 0.5rem 1rem;
     text-align: center;
     margin-left: 10px;
+    display: none;
    
 }
 
 @media (max-width: 617px) {
     .header__lupa {
         background-image: url("../../img/header/Icone2.png");
+    }
+    .header__lupa2 {
+        display: block;
     }
 }
