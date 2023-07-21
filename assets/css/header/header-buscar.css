@@ -31,5 +31,5 @@
     top: 70px;
     right: 5vw;
     z-index: 1;
-
+    box-shadow: 0 0 1rem var(--second-bg-color);
 }

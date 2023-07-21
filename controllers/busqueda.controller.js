@@ -24,7 +24,7 @@ function mostrarResultados(resultados) {
       divSinResultados.classList.add("sinResultados");
   
       const imagenNingunProducto = document.createElement("img");
-      imagenNingunProducto.src = "../assets/img/logueo/p5ok.png"; // Cambiar por la ruta de la imagen deseada
+      imagenNingunProducto.src = "../assets/img/logueo/p5none.png"; // Cambiar por la ruta de la imagen deseada
       imagenNingunProducto.alt = "Ningún producto encontrado";
       divSinResultados.appendChild(imagenNingunProducto);
   

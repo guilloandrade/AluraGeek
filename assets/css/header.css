@@ -14,3 +14,7 @@
         padding: 1rem;
     }
 }
+
+.headerBusqueda{
+    justify-content: flex-start;
+}

@@ -19,4 +19,7 @@
     .sinResultados h1 {
         font-size: 1rem;
     }
+    .sinResultados img {
+        width: 55vw;
+    }
 }

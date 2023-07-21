@@ -16,3 +16,26 @@
     }
     
 }
+
+.header__logo2{
+    display: flex;
+    width: 11rem;
+    justify-content: center;
+    align-items: center; 
+    margin-right: 2rem; 
+    
+}
+
+@media (max-width: 768px) {
+    .header__logo2{
+        width: 9rem;
+    }
+    .header__logo2 img{
+        width: 8rem;
+    }
+    
+}
+
+.logomargen{
+    margin-left: 10.6vw;
+}
