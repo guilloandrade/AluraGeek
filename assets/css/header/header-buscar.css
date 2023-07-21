@@ -18,8 +18,10 @@
 
 @media (max-width: 617px) {
     .header__buscar {
+        display: none;
         order: 2;
         background: none;
         width: auto;
     }
 }
+

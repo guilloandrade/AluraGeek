@@ -6,11 +6,5 @@
     font-weight: 400;
     line-height: 1rem;
     background: none;
-}
-
-@media (max-width: 617px) {
-    .header__input {
-        display: none;
-    }
-
+    width: 90%;
 }
