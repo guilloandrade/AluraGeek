@@ -20,10 +20,16 @@
 }
 
 @media (max-width: 617px) {
-    .header__lupa {
-        background-image: url("../../img/header/Icone2.png");
-    }
     .header__lupa2 {
         display: block;
     }
+}
+
+
+.lupaNone {
+    display: flex;
+}
+
+.lupaNone2 {
+    display: none;
 }

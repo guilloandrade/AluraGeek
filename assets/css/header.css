@@ -1,11 +1,11 @@
-.header{
-display: flex;
-width: 100%;
-padding: 1.9rem 9%;
-align-items: center;
-background: var(--bg-color);
-
-
+.header {
+    display: flex;
+    width: 100%;
+    padding: 1.9rem 9%;
+    align-items: center;
+    background: var(--bg-color);
+    position: relative;
+    overflow: visible;
 }
 
 @media (max-width: 617px) {

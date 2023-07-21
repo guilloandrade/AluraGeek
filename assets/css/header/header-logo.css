@@ -3,7 +3,8 @@
     width: 11rem;
     justify-content: center;
     align-items: center; 
-    margin-right: 2rem;    
+    margin-right: 2rem; 
+    
 }
 
 @media (max-width: 768px) {
