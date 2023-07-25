@@ -1,5 +1,6 @@
 const spans = document.querySelectorAll(".banner_nav");
 let currentIndex = 0;
+let intervalId;
 
 function cambiarBanner() {
   spans[currentIndex].classList.remove("banner_nav--select");
@@ -12,19 +13,24 @@ function cambiarBanner() {
 
 function handleSpanClick() {
   const spanId = this.id;
-  spans.forEach((s) => {
+  spans.forEach((s, index) => {
     if (s.id === spanId) {
       s.classList.add("banner_nav--select");
+      currentIndex = index; // Actualizar el índice para continuar desde el span clickeado
     } else {
       s.classList.remove("banner_nav--select");
     }
   });
+
   const header = document.querySelector("section.banner");
   header.className = `banner banner_${spanId}`;
+  
+  clearInterval(intervalId); // Limpiar el intervalo para detener el carrusel
+  intervalId = setInterval(cambiarBanner, 5000); // Volver a iniciar el carrusel después de 5 segundos
 }
 
-// Llamar a la función cambiarBanner cada 5 segundos (5000 milisegundos)
-setInterval(cambiarBanner, 5000);
+// Iniciar el carrusel
+intervalId = setInterval(cambiarBanner, 5000);
 
 // Agregar evento clic a cada span
 spans.forEach((span) => {
